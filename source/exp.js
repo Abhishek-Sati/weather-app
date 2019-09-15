@@ -1,6 +1,5 @@
 const path=require("path");
 const express=require("express");
-const chalk=require("chalk");
 const hbs=require("hbs");
 const geocode=require("./geocode.js");
 const forecast=require("./forecast.js");
@@ -126,5 +125,5 @@ app.get("*",(req,res)=>{
 //     });
 // })
 app.listen(port,()=>{
-    console.log(chalk.red(`Server is running at Port :- ${port}`));
+    console.log(`Server is running at Port :- ${port}`);
 });

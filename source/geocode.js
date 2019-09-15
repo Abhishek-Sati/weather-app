@@ -1,6 +1,5 @@
 const request=require("request");
 const forecast=require("./forecast.js")
-const chalk=require("chalk");
 const geocode=(address,callback)=>{
     const url="https://api.mapbox.com/geocoding/v5/mapbox.places/" + address + ".json?access_token=pk.eyJ1IjoiYWJoaXNoZWswMSIsImEiOiJjazBnZHlkbGYwNW55M2NxeDlqMmY4bzM1In0.W-F-JYMoFLrnx8Dqq1n4kA";
     request({url:url,json:true},(error,response)=>{
