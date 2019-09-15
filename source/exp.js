@@ -70,7 +70,12 @@ app.get("/weather",(req,res)=>{
                         Current_Temp:result[1],
                         latitude:data[0],
                         longitude:data[1],
-                        Location:data[2]
+                        Location:data[2],
+                        Humidity:result[2],
+                        Pressure:result[3],
+                        Wind_Speed:result[4],
+                        Cloud_Cover:result[5],
+                        Visibility:result[6]
                     })
                 }
             })

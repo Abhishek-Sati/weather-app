@@ -9,7 +9,7 @@ const forecast=(latitude,longitude,callback)=>{
             callback("Invalid URL ! please check the URL");
         }
         else{
-            callback(undefined,[response.body.currently.time,response.body.currently.temperature]);
+            callback(undefined,[response.body.currently.time,response.body.currently.temperature,response.body.currently.humidity,response.body.currently.pressure,response.body.currently.windSpeed,response.body.currently.cloudCover,response.body.currently.visibility]);
         }
     })
 }
