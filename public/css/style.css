@@ -7,8 +7,8 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 50;  
-    background: url(/img/road.jpg) no-repeat fixed ;
-    background-size:100%;
+    background: url(/img/road.jpg) no-repeat;
+    background-size:cover;
 }
 #weatherpic{
     height:100px;
