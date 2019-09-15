@@ -13,6 +13,7 @@ body{
     width:100px;
     align-content: center;
 }
+
 .main-content{
 flex-grow:1;
 }

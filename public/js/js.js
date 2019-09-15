@@ -21,7 +21,7 @@ val.addEventListener("click",()=>{
         else{
             message.textContent="Latitude :- "+data.latitude;
             message1.textContent="Longitude :- "+data.longitude;
-            message2.textContent="Locatiion :- "+data.Location;
+            message2.textContent="Location :- "+data.Location;
             message3.textContent="Current Time :- "+data.Current_Time;
             message4.textContent="Current Temperature :- "+data.Current_Temp;
         }     

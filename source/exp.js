@@ -34,8 +34,8 @@ app.get("/about",(req,res)=>{
 })
 app.get("/help",(req,res)=>{
     res.render("help",{
-        name:"Ankur",
-        place:"Nainital"
+        name:"Abhishek",
+        place:"Sati"
     });
 })
 app.get("/help/*",(req,res)=>{
