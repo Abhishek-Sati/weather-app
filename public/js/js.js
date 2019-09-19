@@ -9,20 +9,20 @@ const message6=document.getElementById("p7");
 const message7=document.getElementById("p8");
 const message8=document.getElementById("p9");
 const message9=document.getElementById("p10");
-message1.textContent=" ";
-message2.textContent=" ";
-message3.textContent=" ";
-message4.textContent=" ";
-message5.textContent=" ";
-message6.textContent=" ";
-message7.textContent=" ";
-message8.textContent=" ";
-message9.textContent=" ";
 
 
 val.addEventListener("click",()=>{
     message.textContent="Loading....";
-   
+    message1.textContent=" ";
+    message2.textContent=" ";
+    message3.textContent=" ";
+    message4.textContent=" ";
+    message5.textContent=" ";
+    message6.textContent=" ";
+    message7.textContent=" ";
+    message8.textContent=" ";
+    message9.textContent=" ";
+    
 
     const address=document.getElementById("address").value;
     fetch("/weather?address="+ address).then((response)=>{
